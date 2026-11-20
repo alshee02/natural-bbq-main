@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Virtual environments
+.venv*/
+
+# IDE / agent state
+.claude/
+.agents/
+.codex/
+.idea/
+.vscode/
+
+# Generated data and embeddings
+/data/
+/embeddings/
+*.summary.json
+
+# OS metadata
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+
+# Secrets
+.env
+credentials.json

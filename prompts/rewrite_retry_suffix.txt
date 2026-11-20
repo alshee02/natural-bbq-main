@@ -1,0 +1,16 @@
+<RETRY_FEEDBACK>
+The previous rewrite preserved the source wording and sentence structure too closely.
+
+Rewrite the item again while following all original semantic-preservation constraints.
+This time:
+- change the sentence structure and phrasing;
+- integrate the context and question more naturally;
+- apply the style inferred from the reference more clearly;
+- do not merely concatenate or lightly edit the source context and question;
+- preserve every fact, identity, relationship, role, event, polarity,
+  ambiguity condition, and answer mapping;
+- do not add new information or imply an answer.
+
+Return only:
+{"natural_question": "..."}
+</RETRY_FEEDBACK>

@@ -1,0 +1,33 @@
+Natural-BBQ: Third-Party Data Attribution
+==========================================
+
+This repository contains code and derived data for the Natural-BBQ project.
+
+BBQ (Bias Benchmark for Question Answering)
+--------------------------------------------
+Natural-BBQ contains transformations derived from BBQ, which is distributed
+under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+
+Original BBQ data files in dataset/bbq/data/ are redistributed under CC BY 4.0.
+
+  Parrish, A., Chen, A., Nangia, N., Padmakumar, V., Phang, J., Thompson, J.,
+  Htut, P. M., & Bowman, S. R. (2022). BBQ: A hand-built bias benchmark for
+  question answering. In Findings of ACL 2022.
+  https://github.com/nyu-mll/BBQ
+
+WildChat-4.8M
+--------------
+WildChat-4.8M, distributed under ODC-By (https://opendatacommons.org/licenses/by/1-0/),
+was used to derive the target style distribution. Raw WildChat prompts, prompt
+identifiers, and user metadata are not redistributed in this repository.
+
+  Zhao, W. X., et al. (2024). WildChat: 1M ChatGPT Interaction Logs in the Wild.
+  In ICLR 2024.
+  https://huggingface.co/datasets/allenai/WildChat-4.8M
+
+Licensing Summary
+------------------
+  Code:               MIT License (see LICENSE)
+  Natural-BBQ data:   CC BY 4.0 (derived from BBQ)
+  BBQ original data:  CC BY 4.0
+  WildChat raw data:  Not included (ODC-By at source)
