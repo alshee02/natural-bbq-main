@@ -1,8 +1,4 @@
 # Paired Prompt Human Evaluation Guideline
-
-Version 1.1  
-Last updated: 2026-08-03
-
 ## 1. Purpose
 
 This study evaluates pairs of texts that are intended to describe the same
