@@ -6,7 +6,7 @@ Code and data for **"Stable Scores, Unstable Decisions: Testing the Linguistic I
 
 ## Overview
 
-Natural-BBQ is a controlled naturalization of BBQ that transforms 58,044 bias benchmark items toward the empirical style distribution of WildChat user prompts, while preserving each item's answer options, gold label, and bias structure. The paired Original--Natural resource enables testing whether bias measurements remain stable under meaning-preserving linguistic variation.
+Natural-BBQ is a controlled naturalization of BBQ that transforms 58,044 bias benchmark items toward the empirical style distribution of WildChat user prompts, while preserving each item's answer options, gold label, and bias structure. The paired Original-Natural resource enables testing whether bias measurements remain stable under meaning-preserving linguistic variation.
 
 This repository contains the Natural-BBQ construction pipeline, the paired Original/Natural evaluation code, the human-validation sampling and checking scripts, and the released dataset.
 
@@ -27,7 +27,7 @@ natural_BBQ/
 │
 └── dataset/
     ├── natural_bbq/                # Released paired dataset
-    │   ├── natural_bbq.jsonl       # 58,044 Original--Natural pairs
+    │   ├── natural_bbq.jsonl       # 58,044 Original-Natural pairs
     │   ├── DATA_CARD.md            # Datasheet
     │   └── export_release.py       # Pipeline output -> public JSONL
     │
@@ -152,7 +152,7 @@ protocol is documented in `dataset/bbq/ANNOTATION_GUIDELINE.md`.
 
 ## Data
 
-- **Natural-BBQ paired dataset** (the 58,044 Original--Natural pairs) is released
+- **Natural-BBQ paired dataset** (the 58,044 Original-Natural pairs) is released
   in `dataset/natural_bbq/natural_bbq.jsonl`; fields, coverage, and provenance are
   documented in [`dataset/natural_bbq/DATA_CARD.md`](dataset/natural_bbq/DATA_CARD.md).
   It is released under CC BY 4.0. To regenerate it from the pipeline output, run
@@ -180,7 +180,7 @@ protocol is documented in `dataset/bbq/ANNOTATION_GUIDELINE.md`.
     author = "Park, Minhee and
       Kim, Daehan and
       Park, Seokwon and
-      Lin, Xia and
+      Xia, Lin and
       Kim, Eunchan",
     booktitle = "Findings of the Association for Computational Linguistics: EACL 2027",
     year = "2027",
