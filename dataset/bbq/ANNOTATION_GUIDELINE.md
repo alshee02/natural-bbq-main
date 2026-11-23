@@ -39,7 +39,7 @@ take a break whenever needed.
 - Every error field is initialized to `0`. Leave it at `0` when the error is
   absent and change it to `1` only when the error is present. Do not blank an
   error field.
-- Work in manageable sessions. A recommended session contains 100--150 rows,
+- Work in manageable sessions. A recommended session contains 100-150 rows,
   followed by a break. Stop a session if attention or consistency declines.
 
 The formatting of a text is part of its linguistic presentation. Labels such
